@@ -1,0 +1,95 @@
+body{
+  background-image: url("https://res.cloudinary.com/lizziedaws/image/upload/c_scale,w_1129/v1569897572/dan-paul-e3qOJ3t9UkM-unsplash_tjd1nf.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 46rem;
+  background-position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  line-height: 1%;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  
+  padding: 15px;
+  margin: 5px 0 5px 0;
+  display: fixed;
+  border: none;
+  background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  
+  margin-bottom: 5px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: deepskyblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  float: right;
+  border-radius: 25px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+
+.signupbtn {
+  float: right;
+  width: 50%;
+  margin-left: 50%;
+}
+
+
+.container {
+  padding: 20px;
+  text-align: left;
+  display: grid;
+  position: right;
+  background-color: white;
+  font-family: Arial;
+  border-radius: 25px;
+  left: 80%;
+  height: 40em;
+}
+
+
+
+
+
+@media screen and (max-width: 300px) {
+  .signupbtn {
+    width: 100%;
+  }
+}
+
+.terms{
+    font-size: 11px;
+}
+.bday{
+  font-size: 9px;
+  line-height: 5px;
+}
